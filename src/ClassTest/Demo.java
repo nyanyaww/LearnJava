@@ -1,5 +1,6 @@
 package ClassTest;
 
+// 程序的入口
 public class Demo
 {
     public static void main(String[] args)
