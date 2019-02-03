@@ -4,7 +4,7 @@ enum Sex {
     female, male, unknown,
 }
 
-// 测试一下类的写法s
+// 测试一下类的写法
 public class People {
     private String name;
     private int age = 0;
