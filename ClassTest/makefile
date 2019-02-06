@@ -5,4 +5,3 @@ run:
 	@java Demo
 clean:
 	rm -rf *.class
-	
