@@ -1,7 +1,7 @@
+src = $(shell find ./ -name "*.java")
+all_class = $(shell find ./ -name "*.class")
+
 target:
-	@javac People.java
-	@javac Demo.java
-run:
-	@java Demo
+	@javac $(src)
 clean:
-	rm -rf *.class
+	rm $(all_class)
