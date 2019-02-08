@@ -8,7 +8,7 @@ public class VectorTest {
     private Vector vector_test1 = new Vector();
 
     void test() {
-        System.out.println("初始化size = " + this.vector_test1.capacity());
+        System.out.println("初始化容量 = " + this.vector_test1.capacity());
         for (int i = 0; i < 1000; i++) {
             this.vector_test1.addElement(i);
             System.out.println(i + " " + this.vector_test1.capacity());
